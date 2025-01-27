@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  pythonflasktutorial:
+    container_name: exploraplapla
+    image: pythonsamplevscodeflasktutorial:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5002:5002
