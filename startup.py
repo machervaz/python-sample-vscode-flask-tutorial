@@ -10,3 +10,4 @@ startup:app in the Gunicorn command.
 """
 
 from hello_app.app import app
+print("Hello startup")
